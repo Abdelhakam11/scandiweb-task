@@ -1,0 +1,12 @@
+.page-header-container {
+  display: flex;
+  padding: 1.6rem 4.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white-color);
+}
+@media screen and (max-width: 700px) {
+  .page-header-container {
+    padding: 1.6rem;
+  }
+}

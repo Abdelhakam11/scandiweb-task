@@ -1,0 +1,18 @@
+@import "../../assets/mixnis.scss";
+.primary-button {
+  background-color: var(--foreground-color);
+  color: var(--black-color);
+  border: none;
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  @include box-shadowing;
+}
